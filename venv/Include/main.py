@@ -66,7 +66,7 @@ def get_url_list(queue):
             #url_list.append(a['href'])
             #print("push {} to the queue".format(a['href']))
             queue.put(a['href'])
-            print(a['href'])
+            print(a['href'], url_count)
             url_count += 1
 
         page_number += 1
